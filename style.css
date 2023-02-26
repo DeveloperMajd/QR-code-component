@@ -1,15 +1,12 @@
 body {
   background: #d6e1f0;
-  padding: 0;
-  margin: 0;
 }
 
 .card-container {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
-  width: 100vw;
+  height: 100%;
 }
 
 .QR-card {
@@ -17,28 +14,28 @@ body {
   border-radius: 1rem;
   padding: 12px;
   text-align: center;
-  max-width: 280px;
+  max-width: 300px;
 }
 
 img {
   border-radius: 1rem;
-  width: 280px;
 }
 
 .card-body {
   font-family: "Outfit", sans-serif;
   padding: 12px;
+  padding-top: 24px;
 }
 
 .card-title {
   font-size: 21px;
-  margin: 0;
 }
 
 .card-text {
   color: #7c87a1;
   font-size: 15px;
   font-weight: 400;
+  padding: 12px 0;
 }
 
 .attribution {
